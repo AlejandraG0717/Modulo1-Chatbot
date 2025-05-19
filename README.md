@@ -35,7 +35,22 @@ Desarrollar un chatbot conversacional que interactue con el usuario y le permita
 
 ![Verificacion de langsmith](imagenes/langsmith1.jpg)
 
-
 ![Verificacion de pregunta realizada en langsmith](imagenes/langsmith2.jpg)
 
 ![Verificacion de respuesta del modelo](imagenes/langsmith3.jpg)
+
+## Ejemplos de Preguntas
+
+El chatbot puede responder preguntas basadas en el contenido del documento PDF que cargues. Aquí tienes algunos ejemplos de preguntas útiles en este caso del PDF de laguntza:
+
+❓ ¿Qué es Laguntza?
+
+❓ ¿Qué servicios ofrecen?
+
+❓ ¿Dónde están ubicados?
+
+❓ ¿Con cuántos trabajadores cuentan en la empresa?
+
+❓ ¿Cuál es su objetivo principal?
+
+💡 Estas preguntas se responden de forma contextualizada únicamente si la información está presente en el documento cargado.
