@@ -1,5 +1,7 @@
 # Chatbot RAG con LangGraph, Langchain y Ollama
 
+![Despliegue inicial del chatbot](imagenes/chatbot1.jpg)
+
 Este proyecto implementa un **chatbot interactivo** capaz de responder preguntas sobre documentos en formato PDF o texto plano (`.txt`), utilizando la técnica **RAG (Retrieval-Augmented Generation)**. Está desarrollado como parte de la **especialización en Inteligencia Artificial** y emplea herramientas modernas como **LangChain, Chroma, LangGraph y Ollama**, con trazabilidad potencial mediante **LangSmith**.
 
 ## Objetivo principal
@@ -28,3 +30,12 @@ Desarrollar un chatbot conversacional que interactue con el usuario y le permita
 4. **Consulta del usuario** ➡️ se consulta el vector store.
 5. **Contextualización de la respuesta** con documentos relevantes.
 6. **Generación de la respuesta final** mediante un LLM local (`qwen3`).
+
+## Verficacion de trazabilidad con LangSmith
+
+![Verificacion de langsmith](imagenes/langsmith1.jpg)
+
+
+![Verificacion de pregunta realizada en langsmith](imagenes/langsmith2.jpg)
+
+![Verificacion de respuesta del modelo](imagenes/langsmith3.jpg)
